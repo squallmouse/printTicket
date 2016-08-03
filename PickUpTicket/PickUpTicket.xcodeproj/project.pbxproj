@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		696E202B2A25AA2CBC47BB40 /* Pods_PickUpTicket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F1F8B72724D978AC9350BB5 /* Pods_PickUpTicket.framework */; };
+		EF3756A71D51BD8300869F86 /* ScanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3756A61D51BD8300869F86 /* ScanVC.swift */; };
+		EF3756A91D51D04E00869F86 /* overlaygraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = EF3756A81D51D04E00869F86 /* overlaygraphic.png */; };
+		EF3756AB1D51DC0000869F86 /* YHAlamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3756AA1D51DC0000869F86 /* YHAlamofire.swift */; };
+		EF3756AD1D51DC1500869F86 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3756AC1D51DC1500869F86 /* Utils.swift */; };
+		EFA0CB751D4F2BB600C6B333 /* PrintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA0CB741D4F2BB600C6B333 /* PrintVC.swift */; };
+		EFAB7DC21D4EF29B001FD2B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB7DC11D4EF29B001FD2B3 /* AppDelegate.swift */; };
+		EFAB7DC41D4EF29B001FD2B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB7DC31D4EF29B001FD2B3 /* ViewController.swift */; };
+		EFAB7DC71D4EF29B001FD2B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAB7DC51D4EF29B001FD2B3 /* Main.storyboard */; };
+		EFAB7DC91D4EF29B001FD2B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAB7DC81D4EF29B001FD2B3 /* Assets.xcassets */; };
+		EFAB7DCC1D4EF29B001FD2B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAB7DCA1D4EF29B001FD2B3 /* LaunchScreen.storyboard */; };
+		EFAB7DD71D4EF29B001FD2B3 /* PickUpTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB7DD61D4EF29B001FD2B3 /* PickUpTicketTests.swift */; };
+		EFAB7DE21D4EF29B001FD2B3 /* PickUpTicketUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAB7DE11D4EF29B001FD2B3 /* PickUpTicketUITests.swift */; };
+		EFC1EF0B1D504C160067E979 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1EF001D504C160067E979 /* AsyncSocket.m */; };
+		EFC1EF0C1D504C160067E979 /* PrintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1EF021D504C160067E979 /* PrintManager.m */; };
+		EFC1EF0D1D504C160067E979 /* MMQRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1EF041D504C160067E979 /* MMQRCode.m */; };
+		EFC1EF0E1D504C160067E979 /* IGThermalSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1EF061D504C160067E979 /* IGThermalSupport.m */; };
+		EFC1EF0F1D504C160067E979 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1EF081D504C160067E979 /* SocketManager.m */; };
+		EFC1EF101D504C160067E979 /* ReceiptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC1EF0A1D504C160067E979 /* ReceiptManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFAB7DD31D4EF29B001FD2B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAB7DB61D4EF29B001FD2B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAB7DBD1D4EF29B001FD2B3;
+			remoteInfo = PickUpTicket;
+		};
+		EFAB7DDE1D4EF29B001FD2B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFAB7DB61D4EF29B001FD2B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFAB7DBD1D4EF29B001FD2B3;
+			remoteInfo = PickUpTicket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F1F8B72724D978AC9350BB5 /* Pods_PickUpTicket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PickUpTicket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30B90C6097BA303401BEF542 /* Pods-PickUpTicket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpTicket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PickUpTicket/Pods-PickUpTicket.debug.xcconfig"; sourceTree = "<group>"; };
+		A0DB0C2607A4FC134480ED69 /* Pods-PickUpTicket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PickUpTicket.release.xcconfig"; path = "Pods/Target Support Files/Pods-PickUpTicket/Pods-PickUpTicket.release.xcconfig"; sourceTree = "<group>"; };
+		EF3756A61D51BD8300869F86 /* ScanVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScanVC.swift; sourceTree = "<group>"; };
+		EF3756A81D51D04E00869F86 /* overlaygraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlaygraphic.png; sourceTree = "<group>"; };
+		EF3756AA1D51DC0000869F86 /* YHAlamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YHAlamofire.swift; sourceTree = "<group>"; };
+		EF3756AC1D51DC1500869F86 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EFA0CB741D4F2BB600C6B333 /* PrintVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintVC.swift; sourceTree = "<group>"; };
+		EFAB7DBE1D4EF29B001FD2B3 /* PickUpTicket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickUpTicket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAB7DC11D4EF29B001FD2B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAB7DC31D4EF29B001FD2B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFAB7DC61D4EF29B001FD2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAB7DC81D4EF29B001FD2B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAB7DCB1D4EF29B001FD2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAB7DCD1D4EF29B001FD2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAB7DD21D4EF29B001FD2B3 /* PickUpTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickUpTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAB7DD61D4EF29B001FD2B3 /* PickUpTicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpTicketTests.swift; sourceTree = "<group>"; };
+		EFAB7DD81D4EF29B001FD2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAB7DDD1D4EF29B001FD2B3 /* PickUpTicketUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickUpTicketUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAB7DE11D4EF29B001FD2B3 /* PickUpTicketUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpTicketUITests.swift; sourceTree = "<group>"; };
+		EFAB7DE31D4EF29B001FD2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC1EEFE1D504C150067E979 /* PickUpTicket-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PickUpTicket-Bridging-Header.h"; path = "print/PickUpTicket-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFC1EEFF1D504C160067E979 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncSocket.h; sourceTree = "<group>"; };
+		EFC1EF001D504C160067E979 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncSocket.m; sourceTree = "<group>"; };
+		EFC1EF011D504C160067E979 /* PrintManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintManager.h; sourceTree = "<group>"; };
+		EFC1EF021D504C160067E979 /* PrintManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintManager.m; sourceTree = "<group>"; };
+		EFC1EF031D504C160067E979 /* MMQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMQRCode.h; sourceTree = "<group>"; };
+		EFC1EF041D504C160067E979 /* MMQRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMQRCode.m; sourceTree = "<group>"; };
+		EFC1EF051D504C160067E979 /* IGThermalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGThermalSupport.h; sourceTree = "<group>"; };
+		EFC1EF061D504C160067E979 /* IGThermalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGThermalSupport.m; sourceTree = "<group>"; };
+		EFC1EF071D504C160067E979 /* SocketManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
+		EFC1EF081D504C160067E979 /* SocketManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocketManager.m; sourceTree = "<group>"; };
+		EFC1EF091D504C160067E979 /* ReceiptManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptManager.h; sourceTree = "<group>"; };
+		EFC1EF0A1D504C160067E979 /* ReceiptManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiptManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAB7DBB1D4EF29B001FD2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696E202B2A25AA2CBC47BB40 /* Pods_PickUpTicket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB7DCF1D4EF29B001FD2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB7DDA1D4EF29B001FD2B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF105612B7FBD28F48DEA733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F8B72724D978AC9350BB5 /* Pods_PickUpTicket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE15160839B3A11074A011AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30B90C6097BA303401BEF542 /* Pods-PickUpTicket.debug.xcconfig */,
+				A0DB0C2607A4FC134480ED69 /* Pods-PickUpTicket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFAB7DB51D4EF29B001FD2B3 = {
+			isa = PBXGroup;
+			children = (
+				EFAB7DC01D4EF29B001FD2B3 /* PickUpTicket */,
+				EFAB7DD51D4EF29B001FD2B3 /* PickUpTicketTests */,
+				EFAB7DE01D4EF29B001FD2B3 /* PickUpTicketUITests */,
+				EFAB7DBF1D4EF29B001FD2B3 /* Products */,
+				DE15160839B3A11074A011AC /* Pods */,
+				AF105612B7FBD28F48DEA733 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAB7DBF1D4EF29B001FD2B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB7DBE1D4EF29B001FD2B3 /* PickUpTicket.app */,
+				EFAB7DD21D4EF29B001FD2B3 /* PickUpTicketTests.xctest */,
+				EFAB7DDD1D4EF29B001FD2B3 /* PickUpTicketUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAB7DC01D4EF29B001FD2B3 /* PickUpTicket */ = {
+			isa = PBXGroup;
+			children = (
+				EF3756AC1D51DC1500869F86 /* Utils.swift */,
+				EF3756AA1D51DC0000869F86 /* YHAlamofire.swift */,
+				EFC1EEFE1D504C150067E979 /* PickUpTicket-Bridging-Header.h */,
+				EF3756A81D51D04E00869F86 /* overlaygraphic.png */,
+				EFAB7DC11D4EF29B001FD2B3 /* AppDelegate.swift */,
+				EFAB7DC31D4EF29B001FD2B3 /* ViewController.swift */,
+				EFA0CB741D4F2BB600C6B333 /* PrintVC.swift */,
+				EF3756A61D51BD8300869F86 /* ScanVC.swift */,
+				EFC1EEFD1D504BF10067E979 /* print */,
+				EFAB7DC51D4EF29B001FD2B3 /* Main.storyboard */,
+				EFAB7DC81D4EF29B001FD2B3 /* Assets.xcassets */,
+				EFAB7DCA1D4EF29B001FD2B3 /* LaunchScreen.storyboard */,
+				EFAB7DCD1D4EF29B001FD2B3 /* Info.plist */,
+			);
+			path = PickUpTicket;
+			sourceTree = "<group>";
+		};
+		EFAB7DD51D4EF29B001FD2B3 /* PickUpTicketTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB7DD61D4EF29B001FD2B3 /* PickUpTicketTests.swift */,
+				EFAB7DD81D4EF29B001FD2B3 /* Info.plist */,
+			);
+			path = PickUpTicketTests;
+			sourceTree = "<group>";
+		};
+		EFAB7DE01D4EF29B001FD2B3 /* PickUpTicketUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB7DE11D4EF29B001FD2B3 /* PickUpTicketUITests.swift */,
+				EFAB7DE31D4EF29B001FD2B3 /* Info.plist */,
+			);
+			path = PickUpTicketUITests;
+			sourceTree = "<group>";
+		};
+		EFC1EEFD1D504BF10067E979 /* print */ = {
+			isa = PBXGroup;
+			children = (
+				EFC1EEFF1D504C160067E979 /* AsyncSocket.h */,
+				EFC1EF001D504C160067E979 /* AsyncSocket.m */,
+				EFC1EF011D504C160067E979 /* PrintManager.h */,
+				EFC1EF021D504C160067E979 /* PrintManager.m */,
+				EFC1EF031D504C160067E979 /* MMQRCode.h */,
+				EFC1EF041D504C160067E979 /* MMQRCode.m */,
+				EFC1EF051D504C160067E979 /* IGThermalSupport.h */,
+				EFC1EF061D504C160067E979 /* IGThermalSupport.m */,
+				EFC1EF071D504C160067E979 /* SocketManager.h */,
+				EFC1EF081D504C160067E979 /* SocketManager.m */,
+				EFC1EF091D504C160067E979 /* ReceiptManager.h */,
+				EFC1EF0A1D504C160067E979 /* ReceiptManager.m */,
+			);
+			path = print;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAB7DBD1D4EF29B001FD2B3 /* PickUpTicket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAB7DE61D4EF29B001FD2B3 /* Build configuration list for PBXNativeTarget "PickUpTicket" */;
+			buildPhases = (
+				C0E6D23B04C04E49D2A8C47A /* 📦 Check Pods Manifest.lock */,
+				EFAB7DBA1D4EF29B001FD2B3 /* Sources */,
+				EFAB7DBB1D4EF29B001FD2B3 /* Frameworks */,
+				EFAB7DBC1D4EF29B001FD2B3 /* Resources */,
+				1CD2ABFC9F3453611F144969 /* 📦 Embed Pods Frameworks */,
+				FC39A33F00972E158C210BF7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PickUpTicket;
+			productName = PickUpTicket;
+			productReference = EFAB7DBE1D4EF29B001FD2B3 /* PickUpTicket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFAB7DD11D4EF29B001FD2B3 /* PickUpTicketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAB7DE91D4EF29B001FD2B3 /* Build configuration list for PBXNativeTarget "PickUpTicketTests" */;
+			buildPhases = (
+				EFAB7DCE1D4EF29B001FD2B3 /* Sources */,
+				EFAB7DCF1D4EF29B001FD2B3 /* Frameworks */,
+				EFAB7DD01D4EF29B001FD2B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAB7DD41D4EF29B001FD2B3 /* PBXTargetDependency */,
+			);
+			name = PickUpTicketTests;
+			productName = PickUpTicketTests;
+			productReference = EFAB7DD21D4EF29B001FD2B3 /* PickUpTicketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFAB7DDC1D4EF29B001FD2B3 /* PickUpTicketUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAB7DEC1D4EF29B001FD2B3 /* Build configuration list for PBXNativeTarget "PickUpTicketUITests" */;
+			buildPhases = (
+				EFAB7DD91D4EF29B001FD2B3 /* Sources */,
+				EFAB7DDA1D4EF29B001FD2B3 /* Frameworks */,
+				EFAB7DDB1D4EF29B001FD2B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFAB7DDF1D4EF29B001FD2B3 /* PBXTargetDependency */,
+			);
+			name = PickUpTicketUITests;
+			productName = PickUpTicketUITests;
+			productReference = EFAB7DDD1D4EF29B001FD2B3 /* PickUpTicketUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAB7DB61D4EF29B001FD2B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = squallmouse;
+				TargetAttributes = {
+					EFAB7DBD1D4EF29B001FD2B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EFAB7DD11D4EF29B001FD2B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFAB7DBD1D4EF29B001FD2B3;
+					};
+					EFAB7DDC1D4EF29B001FD2B3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFAB7DBD1D4EF29B001FD2B3;
+					};
+				};
+			};
+			buildConfigurationList = EFAB7DB91D4EF29B001FD2B3 /* Build configuration list for PBXProject "PickUpTicket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAB7DB51D4EF29B001FD2B3;
+			productRefGroup = EFAB7DBF1D4EF29B001FD2B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAB7DBD1D4EF29B001FD2B3 /* PickUpTicket */,
+				EFAB7DD11D4EF29B001FD2B3 /* PickUpTicketTests */,
+				EFAB7DDC1D4EF29B001FD2B3 /* PickUpTicketUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAB7DBC1D4EF29B001FD2B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAB7DCC1D4EF29B001FD2B3 /* LaunchScreen.storyboard in Resources */,
+				EF3756A91D51D04E00869F86 /* overlaygraphic.png in Resources */,
+				EFAB7DC91D4EF29B001FD2B3 /* Assets.xcassets in Resources */,
+				EFAB7DC71D4EF29B001FD2B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB7DD01D4EF29B001FD2B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB7DDB1D4EF29B001FD2B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CD2ABFC9F3453611F144969 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickUpTicket/Pods-PickUpTicket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0E6D23B04C04E49D2A8C47A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC39A33F00972E158C210BF7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PickUpTicket/Pods-PickUpTicket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAB7DBA1D4EF29B001FD2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAB7DC41D4EF29B001FD2B3 /* ViewController.swift in Sources */,
+				EF3756AB1D51DC0000869F86 /* YHAlamofire.swift in Sources */,
+				EF3756A71D51BD8300869F86 /* ScanVC.swift in Sources */,
+				EFC1EF0D1D504C160067E979 /* MMQRCode.m in Sources */,
+				EFC1EF101D504C160067E979 /* ReceiptManager.m in Sources */,
+				EFC1EF0C1D504C160067E979 /* PrintManager.m in Sources */,
+				EFC1EF0E1D504C160067E979 /* IGThermalSupport.m in Sources */,
+				EFA0CB751D4F2BB600C6B333 /* PrintVC.swift in Sources */,
+				EFAB7DC21D4EF29B001FD2B3 /* AppDelegate.swift in Sources */,
+				EFC1EF0F1D504C160067E979 /* SocketManager.m in Sources */,
+				EFC1EF0B1D504C160067E979 /* AsyncSocket.m in Sources */,
+				EF3756AD1D51DC1500869F86 /* Utils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB7DCE1D4EF29B001FD2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAB7DD71D4EF29B001FD2B3 /* PickUpTicketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFAB7DD91D4EF29B001FD2B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAB7DE21D4EF29B001FD2B3 /* PickUpTicketUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFAB7DD41D4EF29B001FD2B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAB7DBD1D4EF29B001FD2B3 /* PickUpTicket */;
+			targetProxy = EFAB7DD31D4EF29B001FD2B3 /* PBXContainerItemProxy */;
+		};
+		EFAB7DDF1D4EF29B001FD2B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFAB7DBD1D4EF29B001FD2B3 /* PickUpTicket */;
+			targetProxy = EFAB7DDE1D4EF29B001FD2B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFAB7DC51D4EF29B001FD2B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAB7DC61D4EF29B001FD2B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAB7DCA1D4EF29B001FD2B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAB7DCB1D4EF29B001FD2B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAB7DE41D4EF29B001FD2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAB7DE51D4EF29B001FD2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAB7DE71D4EF29B001FD2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30B90C6097BA303401BEF542 /* Pods-PickUpTicket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PickUpTicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiXinTrip.PickUpTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PickUpTicket/print/PickUpTicket-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAB7DE81D4EF29B001FD2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0DB0C2607A4FC134480ED69 /* Pods-PickUpTicket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PickUpTicket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiXinTrip.PickUpTicket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PickUpTicket/print/PickUpTicket-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EFAB7DEA1D4EF29B001FD2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickUpTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiXinTrip.PickUpTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickUpTicket.app/PickUpTicket";
+			};
+			name = Debug;
+		};
+		EFAB7DEB1D4EF29B001FD2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PickUpTicketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiXinTrip.PickUpTicketTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PickUpTicket.app/PickUpTicket";
+			};
+			name = Release;
+		};
+		EFAB7DED1D4EF29B001FD2B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PickUpTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiXinTrip.PickUpTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickUpTicket;
+			};
+			name = Debug;
+		};
+		EFAB7DEE1D4EF29B001FD2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PickUpTicketUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AiXinTrip.PickUpTicketUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PickUpTicket;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAB7DB91D4EF29B001FD2B3 /* Build configuration list for PBXProject "PickUpTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAB7DE41D4EF29B001FD2B3 /* Debug */,
+				EFAB7DE51D4EF29B001FD2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAB7DE61D4EF29B001FD2B3 /* Build configuration list for PBXNativeTarget "PickUpTicket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAB7DE71D4EF29B001FD2B3 /* Debug */,
+				EFAB7DE81D4EF29B001FD2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAB7DE91D4EF29B001FD2B3 /* Build configuration list for PBXNativeTarget "PickUpTicketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAB7DEA1D4EF29B001FD2B3 /* Debug */,
+				EFAB7DEB1D4EF29B001FD2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAB7DEC1D4EF29B001FD2B3 /* Build configuration list for PBXNativeTarget "PickUpTicketUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAB7DED1D4EF29B001FD2B3 /* Debug */,
+				EFAB7DEE1D4EF29B001FD2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAB7DB61D4EF29B001FD2B3 /* Project object */;
+}
